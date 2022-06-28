@@ -3,7 +3,7 @@ Basic set up for a RESTful API using SpringBoot based on a student model.
 
 ## Features
 * Configured to use an H2 database. Can be changed by navigating to src/main/resources/application.properties
-* Has a functional get and post request method inside the controller that can store and retreive students | src/main/java/com/example/demo/controller/StudentController.java
+* Has a functional get and post request method inside the controller that can store and retreive student models | src/main/java/com/example/demo/controller/StudentController.java
 * Uses the JpaRepository to access our database | src/main/java/com/example/demo/dao/StudentRepo.java
 
 
